@@ -1,0 +1,121 @@
+---------init_logger---------
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setKalmanFilter: 300 200
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setMedianFilter: 3
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setEdgeFilter: 150
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setDustFilter: 2000 2 300
+[20250530-10-25-22 INFO] App XinTan::BaseFilter_lib::setDustFilter: SETTING DUST FILTER threshold:  2000 frame count: 2
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setPostParam: POST PARA DIAL PIXELS: 5.000000
+[20250530-10-25-22 INFO] XinTan::BaseFilter::setSdkReflectiveFilter: 0.500000 2.000000
+[20250530-10-25-22 INFO] XinTan::XtDaemon::setConnectAddress: COM4
+[20250530-10-25-22 INFO] XinTan::XtDaemon::startup: 
+[20250530-10-25-24 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-25-24 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-25-25 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-25-25 INFO] XinTan::XtDaemon::updateDevState: Bootloader
+[20250530-10-25-25 INFO] XinTan::XtSdk::eventInternalProcess: 254
+[20250530-10-25-25 INFO] XinTan::XtSdk::getDevInfo: getdevinfo=1
+[20250530-10-25-25 INFO] XinTan::XtSdk::eventInternalProcess: sn =
+[20250530-10-25-25 INFO] XinTan::XtSdk::eventInternalProcess: fw =read failed
+[20250530-10-25-25 INFO] XinTan::XtSdk::customCmd: 18 0
+[20250530-10-25-25 INFO] XinTan::XtSdk::eventInternalProcess: getLensCalidata failed, use default params
+[20250530-10-25-25 INFO] XinTan::XtSdk::getDevInfo: getdevinfo=1
+[20250530-10-25-35 INFO] XinTan::XtSdk::stop: 
+[20250530-10-25-35 INFO] XinTan::XtDaemon::shutdown: 
+---------init_logger---------
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setKalmanFilter: 300 200
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setMedianFilter: 3
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setEdgeFilter: 150
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setDustFilter: 2000 2 300
+[20250530-10-26-16 INFO] App XinTan::BaseFilter_lib::setDustFilter: SETTING DUST FILTER threshold:  2000 frame count: 2
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setPostParam: POST PARA DIAL PIXELS: 5.000000
+[20250530-10-26-16 INFO] XinTan::BaseFilter::setSdkReflectiveFilter: 0.500000 2.000000
+[20250530-10-26-16 INFO] XinTan::XtDaemon::setConnectAddress: COM4
+[20250530-10-26-16 INFO] XinTan::XtDaemon::startup: 
+[20250530-10-26-18 INFO] XinTan::XtDaemon::updateDevState: Init
+[20250530-10-26-18 INFO] XinTan::XtSdk::eventInternalProcess: 254
+[20250530-10-26-20 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 4
+[20250530-10-26-21 INFO] XinTan::XtDaemon::updateDevState: Idle
+[20250530-10-26-21 INFO] XinTan::XtSdk::getDevInfo: getdevinfo datasize=0
+[20250530-10-26-21 INFO] XinTan::XtSdk::eventInternalProcess: sn =
+[20250530-10-26-21 INFO] XinTan::XtSdk::eventInternalProcess: fw =unknow
+[20250530-10-26-21 INFO] XinTan::XtSdk::customCmd: 18 0
+[20250530-10-26-22 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 18
+[20250530-10-26-23 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 18
+[20250530-10-26-24 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 18
+[20250530-10-26-25 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 18
+[20250530-10-26-25 INFO] XinTan::XtSdk::eventInternalProcess: getLensCalidata failed, use default params
+[20250530-10-26-25 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-25 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-26 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-26 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-28 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 4
+[20250530-10-26-30 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 4
+[20250530-10-26-32 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 4
+[20250530-10-26-34 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 4
+[20250530-10-26-34 INFO] XinTan::XtSdk::getDevInfo: getdevinfo=15
+[20250530-10-26-34 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-35 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-35 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-35 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-41 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-41 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-41 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-26-41 INFO] XinTan::XtDaemon::updateDevState: Idle
+[20250530-10-26-41 INFO] XinTan::XtSdk::eventInternalProcess: 254
+[20250530-10-26-41 INFO] XinTan::XtSdk::eventInternalProcess: sn =xtm60minia20240906p05
+[20250530-10-26-41 INFO] XinTan::XtSdk::eventInternalProcess: fw =xttof-fwc-v2.25
+[20250530-10-26-41 INFO] XinTan::XtSdk::customCmd: 18 0
+[20250530-10-26-41 INFO] XinTan::XtSdk::eventInternalProcess: getLensCalidata=true cx=80.701973 cy=26.804274 fx=78.212524 fy=79.055527 k1=-0.302470 k2=0.074865 k3=0.000000 p1=-0.002307 p2=-0.001400
+[20250530-10-26-42 INFO] XinTan::XtSdk::stop: 
+[20250530-10-26-42 INFO] XinTan::XtSdk::setIntTimesus: 20 200 1500 2000 2000
+[20250530-10-26-42 INFO] XinTan::XtSdk::setMultiModFreq: 0 0 0
+[20250530-10-26-42 INFO] XinTan::XtSdk::customCmd: 27 5
+[20250530-10-26-42 INFO] XinTan::XtSdk::setHdrMode: 1
+[20250530-10-26-42 INFO] XinTan::XtSdk::setMinAmplitude: 80
+[20250530-10-26-42 INFO] XinTan::XtSdk::setMaxFps: 9
+[20250530-10-26-42 INFO] XinTan::XtSdk::start: 4
+[20250530-10-26-42 INFO] XinTan::XtDaemon::updateDevState: Stream
+[20250530-10-26-43 INFO] XinTan::XtDaemon::reportImage: imageversion=3
+[20250530-10-26-43 INFO] XinTan::PostProcess::motion_recover: init motion recover
+[20250530-10-26-43 INFO] XinTan::PostProcess::checkIsClose: CLOSE TARGET DETECTED
+[20250530-10-26-43 INFO] App XinTan::BaseFilter_lib::doDustFilter: DUST PROC PRE SAVING
+[20250530-10-26-43 INFO] App XinTan::BaseFilter_lib::doDustFilter: DUST PROC PRE SAVING
+[20250530-10-26-47 INFO] XinTan::XtSdk::stop: 
+[20250530-10-26-47 INFO] XinTan::XtDaemon::updateDevState: Idle
+[20250530-10-26-47 INFO] XinTan::XtDaemon::shutdown: 
+---------init_logger---------
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setKalmanFilter: 300 200
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setMedianFilter: 3
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setEdgeFilter: 150
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setDustFilter: 2000 2 300
+[20250530-10-29-10 INFO] App XinTan::BaseFilter_lib::setDustFilter: SETTING DUST FILTER threshold:  2000 frame count: 2
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setPostParam: POST PARA DIAL PIXELS: 5.000000
+[20250530-10-29-10 INFO] XinTan::BaseFilter::setSdkReflectiveFilter: 0.500000 2.000000
+[20250530-10-29-10 INFO] XinTan::XtDaemon::setConnectAddress: COM4
+[20250530-10-29-10 INFO] XinTan::XtDaemon::startup: 
+[20250530-10-29-12 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-29-13 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-29-13 INFO] XinTan::XtDaemon::transceiveCmd: try again cmd 0
+[20250530-10-29-13 INFO] XinTan::XtDaemon::updateDevState: Idle
+[20250530-10-29-13 INFO] XinTan::XtSdk::eventInternalProcess: 254
+[20250530-10-29-13 INFO] XinTan::XtSdk::eventInternalProcess: sn =xtm60minia20240906p05
+[20250530-10-29-13 INFO] XinTan::XtSdk::eventInternalProcess: fw =xttof-fwc-v2.25
+[20250530-10-29-13 INFO] XinTan::XtSdk::customCmd: 18 0
+[20250530-10-29-13 INFO] XinTan::XtSdk::eventInternalProcess: getLensCalidata=true cx=80.701973 cy=26.804274 fx=78.212524 fy=79.055527 k1=-0.302470 k2=0.074865 k3=0.000000 p1=-0.002307 p2=-0.001400
+[20250530-10-29-13 INFO] XinTan::XtSdk::stop: 
+[20250530-10-29-13 INFO] XinTan::XtSdk::setIntTimesus: 20 200 1500 2000 2000
+[20250530-10-29-13 INFO] XinTan::XtSdk::setMultiModFreq: 0 0 0
+[20250530-10-29-13 INFO] XinTan::XtSdk::customCmd: 27 5
+[20250530-10-29-13 INFO] XinTan::XtSdk::setHdrMode: 1
+[20250530-10-29-13 INFO] XinTan::XtSdk::setMinAmplitude: 80
+[20250530-10-29-13 INFO] XinTan::XtSdk::setMaxFps: 9
+[20250530-10-29-13 INFO] XinTan::XtSdk::start: 4
+[20250530-10-29-13 INFO] XinTan::XtDaemon::updateDevState: Stream
+[20250530-10-29-13 INFO] XinTan::XtDaemon::reportImage: imageversion=3
+[20250530-10-29-13 INFO] XinTan::PostProcess::motion_recover: init motion recover
+[20250530-10-29-13 INFO] XinTan::PostProcess::checkIsClose: CLOSE TARGET DETECTED
+[20250530-10-29-14 INFO] App XinTan::BaseFilter_lib::doDustFilter: DUST PROC PRE SAVING
+[20250530-10-29-14 INFO] App XinTan::BaseFilter_lib::doDustFilter: DUST PROC PRE SAVING
+[20250530-10-29-20 INFO] XinTan::XtSdk::stop: 
+[20250530-10-29-20 INFO] XinTan::XtDaemon::updateDevState: Idle
+[20250530-10-29-20 INFO] XinTan::XtDaemon::shutdown: 
