@@ -6,6 +6,7 @@ import signal
 import os
 import copy
 import numpy as np
+import re
 
 
 
@@ -61,6 +62,18 @@ def get_multi_freq(freq_dev: int) -> int:
     # Get the index from the dictionary, default to 100 if freq_dev is unknown
     return freq_map.get(freq_dev, 100)
 
+def extract_version(fwVersion: str) -> float:
+    version_match = re.search(r'[vV](\d+\.\d+)(?:\.\d+)?[a-zA-Z]?', fwVersion)
+
+    if not version_match:
+        return None
+
+    version_str = version_match.group(1)  # Get X.Y part
+    try:
+        return float(version_str)
+    except ValueError:
+        return None
+
 #xtsdk 回调函数
 def onCallbackEvent(event: xintan_sdk.CBEventData):
     try:
@@ -73,8 +86,8 @@ def onCallbackEvent(event: xintan_sdk.CBEventData):
                 print(devinfo.sn + " " + devinfo.chipidStr)
 
                 fwVersion = devinfo.fwVersion  # 假设 devinfo 是字典类型，fwVersion 是其中的一个键
-                fwlen = len(fwVersion)
-                fwversionf = float(fwVersion[fwlen - 4:])
+                fwversionf = extract_version(fwVersion)
+                print("device fw version: " + str(fwversionf))
 
                 if fwversionf >= 2.20:
                     print(str(fwversionf) + " > 2.20")
